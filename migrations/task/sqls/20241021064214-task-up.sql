@@ -215,7 +215,7 @@ INSERT INTO "COURSE_BOOKING" (user_id,course_id,booking_at,status)values
     (SELECT id FROM "COURSE" WHERE user_id=(SELECT id FROM "USER" WHERE name='李燕容')),
     '2024-11-24 16:00:00',
     '即將授課'
-);
+),
 ( 
     (SELECT id FROM "USER" WHERE email='richman@hexschooltest.io'),
     (SELECT id FROM "COURSE" WHERE user_id=(SELECT id FROM "USER" WHERE name='李燕容')),
